@@ -225,8 +225,8 @@ def handle_voice(message):
 @bot.message_handler(commands=["create", "image"])
 def handle_image(message):
     space_markup = '                                                                                  '
-    image_footer = '[Website](https://deadlyai.com)'
-    caption = f"Powered by **[Sonic](https://t.me/sleepomi)" + space_markup + image_footer
+    image_footer = '[Website](https://mahtoanjali.com)'
+    caption = f"Powered by **[Mahto](https://t.me/QUEENx_GOD)" + space_markup + image_footer
 
     if message.text.startswith("/image"):
         prompt = message.text.replace("/image", "").strip()
